@@ -59,7 +59,7 @@ const schema = yup.object({
   userName: yup
     .string()
     .required('必須項目です')
-    .min(5,"5文字以上で入力してください")
+    .min(4,"4文字以上で入力してください")
     .max(30,"30文字以下で入力してください"),
   password: yup
     .string()
